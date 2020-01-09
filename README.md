@@ -1,5 +1,3 @@
 # AngularProductsAddAndLogin
 Angular ile Ürün Ekleme (Json veri çekip ) ve localde login işlemi
-
-
-![](productAdd1.gif)
+<img src="https://media.giphy.com/media/Q7XRayId2AZ4O4Npmo/giphy.gif" />
