@@ -1,0 +1,26 @@
+<form class="form-signin" #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+    <div class="text-center mb-4">
+     
+      <h1 class="h3 mb-3 font-weight-normal">Sisteme Giriş</h1>
+      
+    </div>
+  
+    <div class="form-label-group">
+      <input type="text" id="userName" name="userName" #userName="ngModel" [(ngModel)]="model.userName" class="form-control" placeholder="UserName" required autofocus>
+      <label for="inputEmail">UserName</label>
+    </div>
+  
+    <div class="form-label-group">
+      <input type="password" id="password" name="password" #password="ngModel" [(ngModel)]="model.password" class="form-control" placeholder="Password" required>
+      <label for="inputPassword">Password</label>
+    </div>
+  
+    <!-- <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div> -->
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted text-center" *ngIf="isLoggedin()==false" class="nav-link" routerLink="/login">&copy; 2020 - ∞  ></p>
+  </form>
+  

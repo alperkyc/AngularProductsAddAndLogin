@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1560854350-13c0b47a3180?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 25,
+      "categoryId": 2,
+      "description": "A4 Tech",
+      "imageUrl": "https://images.unsplash.com/photo-1551515300-2d3b7bb80920?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+    },
+    {
+      "name": "Telefon",
+      "description": "Iphone 8 Telefon",
+      "price": "5000",
+      "categoryId": "2",
+      "imageUrl": "https://productimages.hepsiburada.net/s/31/1500/10352776413234.jpg",
+      "id": 3
+    },
+    {
+      "name": "Buzdolabı",
+      "description": "Arçelik No-Frost",
+      "imageUrl": "https://st3.myideasoft.com/shop/vr/10/myassets/products/623/arcelik-270560-ea-no-frost-buzdolabi.png?revision=1569502104",
+      "price": "5185",
+      "categoryId": "2",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    }
+  ]
+}
